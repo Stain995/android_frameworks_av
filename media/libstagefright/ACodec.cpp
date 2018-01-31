@@ -1059,7 +1059,7 @@ status_t ACodec::setupNativeWindowSizeFormatAndUsage(
 #ifdef USE_SAMSUNG_COLORFORMAT
             eNativeColorFormat,
 #elif MTK_HARDWARE
- 	 eHalColorFormat,
+ 	  eHalColorFormat,
 #else
             def.format.video.eColorFormat,
 #endif
