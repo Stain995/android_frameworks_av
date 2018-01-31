@@ -78,7 +78,7 @@ LOCAL_C_INCLUDES += \
 LOCAL_EXPORT_C_INCLUDE_DIRS := \
     frameworks/av/services/camera/libcameraservice
 
-LOCAL_CFLAGS += -Wall -Wextra -Werror
+LOCAL_CFLAGS += -Wall -Wextra
 
 ifeq ($(TARGET_HAS_LEGACY_CAMERA_HAL1),true)
     LOCAL_CFLAGS += -DNO_CAMERA_SERVER
